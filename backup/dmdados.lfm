@@ -1,0 +1,70 @@
+object DM: TDM
+  OldCreateOrder = False
+  Height = 485
+  HorizontalOffset = 374
+  VerticalOffset = 193
+  Width = 559
+  object ZConexao: TZConnection
+    ControlsCodePage = cCP_UTF8
+    AutoEncodeStrings = True
+    Properties.Strings = (
+      'AutoEncodeStrings=True'
+      'controls_cp=CP_UTF8'
+    )
+    TransactIsolationLevel = tiReadCommitted
+    BeforeConnect = ZConexaoBeforeConnect
+    AfterConnect = ZConexaoAfterConnect
+    SQLHourGlass = True
+    HostName = 'localhost'
+    Port = 5432
+    Database = 'postgres'
+    User = 'postgres'
+    Password = 'visual'
+    Protocol = 'postgresql'
+    LibraryLocation = 'C:\SistemasLazarus\PGLibs\32\libpq.dll'
+    Left = 48
+    Top = 32
+  end
+  object zqLocal: TZQuery
+    Connection = ZConexao
+    BeforePost = zqLocalBeforePost
+    SQL.Strings = (
+      'select * from public.tb_Local'
+    )
+    Params = <>
+    Left = 40
+    Top = 88
+    object zqLocalid: TLongintField
+      FieldKind = fkData
+      FieldName = 'id'
+      Index = 0
+      LookupCache = False
+      ProviderFlags = [pfInUpdate, pfInWhere]
+      ReadOnly = False
+      Required = True
+    end
+    object zqLocaldescricao: TStringField
+      FieldKind = fkData
+      FieldName = 'descricao'
+      Index = 1
+      LookupCache = False
+      ProviderFlags = [pfInUpdate, pfInWhere]
+      ReadOnly = False
+      Required = True
+      Size = 25
+    end
+  end
+  object dtsLocal: TDataSource
+    DataSet = zqLocal
+    Left = 144
+    Top = 89
+  end
+  object zqComandos: TZQuery
+    Connection = ZConexao
+    CachedUpdates = True
+    BeforePost = zqLocalBeforePost
+    Params = <>
+    Left = 144
+    Top = 32
+  end
+end

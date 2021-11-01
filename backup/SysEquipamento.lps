@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="11"/>
+    <BuildModes Active="Default"/>
+    <Units Count="26">
+      <Unit0>
+        <Filename Value="SysEquipamento.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos Y="16"/>
+        <UsageCount Value="46"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="cadlocal.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmCadLocal"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="CadLocal"/>
+        <TopLine Value="97"/>
+        <CursorPos X="14" Y="111"/>
+        <UsageCount Value="46"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="dmdados.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="DM"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="DataModule"/>
+        <UnitName Value="DMDados"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="2"/>
+        <TopLine Value="53"/>
+        <CursorPos X="33" Y="68"/>
+        <UsageCount Value="46"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="principal.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmPrincipal"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="Principal"/>
+        <EditorIndex Value="3"/>
+        <TopLine Value="40"/>
+        <CursorPos X="16" Y="42"/>
+        <UsageCount Value="46"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="ucadparam.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmCadParam"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="ucadParam"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="26"/>
+        <CursorPos X="5" Y="39"/>
+        <UsageCount Value="40"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="..\cadlocal.pas"/>
+        <UnitName Value="CadLocal"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="9"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="..\dmdados.pas"/>
+        <UnitName Value="DMDados"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="9"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="..\..\..\Moacyr\AppData\Local\lazarus\onlinepackagemanager\packages\zeosdbo\src\plain\ZPlainLoader.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="229"/>
+        <CursorPos Y="250"/>
+        <UsageCount Value="9"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="..\..\..\Moacyr\AppData\Local\lazarus\onlinepackagemanager\packages\zeosdbo\src\dbc\ZDbcPostgreSqlUtils.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="685"/>
+        <CursorPos Y="699"/>
+        <UsageCount Value="9"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit8>
+      <Unit9>
+        <Filename Value="C:\lazarus\lcl\include\customform.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="445"/>
+        <CursorPos X="63" Y="470"/>
+        <UsageCount Value="10"/>
+      </Unit9>
+      <Unit10>
+        <Filename Value="C:\lazarus\lcl\dbgrids.pas"/>
+        <UnitName Value="DBGrids"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="930"/>
+        <CursorPos Y="945"/>
+        <UsageCount Value="18"/>
+      </Unit10>
+      <Unit11>
+        <Filename Value="C:\lazarus\lcl\grids.pas"/>
+        <UnitName Value="Grids"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="262"/>
+        <CursorPos Y="12833"/>
+        <UsageCount Value="16"/>
+      </Unit11>
+      <Unit12>
+        <Filename Value="..\..\..\Moacyr\AppData\Local\lazarus\onlinepackagemanager\packages\zeosdbo\src\component\ZAbstractDataset.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="629"/>
+        <CursorPos Y="644"/>
+        <UsageCount Value="10"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit12>
+      <Unit13>
+        <Filename Value="..\..\..\Moacyr\AppData\Local\lazarus\onlinepackagemanager\packages\zeosdbo\src\component\ZAbstractConnection.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="1217"/>
+        <CursorPos Y="1241"/>
+        <UsageCount Value="10"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit13>
+      <Unit14>
+        <Filename Value="..\..\..\Moacyr\AppData\Local\lazarus\onlinepackagemanager\packages\zeosdbo\src\dbc\ZDbcCachedResultSet.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="469"/>
+        <CursorPos Y="484"/>
+        <UsageCount Value="9"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit14>
+      <Unit15>
+        <Filename Value="..\..\..\Moacyr\AppData\Local\lazarus\onlinepackagemanager\packages\zeosdbo\src\dbc\ZDbcResultSet.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="767"/>
+        <CursorPos Y="784"/>
+        <UsageCount Value="9"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit15>
+      <Unit16>
+        <Filename Value="..\..\..\Moacyr\AppData\Local\lazarus\onlinepackagemanager\packages\zeosdbo\src\dbc\ZDbcGenericResolver.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="524"/>
+        <CursorPos Y="548"/>
+        <UsageCount Value="9"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit16>
+      <Unit17>
+        <Filename Value="..\..\..\Moacyr\AppData\Local\lazarus\onlinepackagemanager\packages\zeosdbo\src\dbc\ZDbcResultSetMetadata.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="454"/>
+        <CursorPos Y="473"/>
+        <UsageCount Value="9"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit17>
+      <Unit18>
+        <Filename Value="..\..\..\Moacyr\AppData\Local\lazarus\onlinepackagemanager\packages\zeosdbo\src\dbc\ZDbcCache.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="1763"/>
+        <CursorPos Y="1779"/>
+        <UsageCount Value="9"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit18>
+      <Unit19>
+        <Filename Value="C:\lazarus\lcl\include\control.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="5232"/>
+        <CursorPos Y="5254"/>
+        <UsageCount Value="9"/>
+      </Unit19>
+      <Unit20>
+        <Filename Value="C:\lazarus\lcl\include\application.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="363"/>
+        <CursorPos Y="378"/>
+        <UsageCount Value="10"/>
+      </Unit20>
+      <Unit21>
+        <Filename Value="..\..\..\Moacyr\AppData\Local\lazarus\onlinepackagemanager\packages\TDINoteBook\tdiclass.pas"/>
+        <UnitName Value="TDIClass"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="380"/>
+        <CursorPos Y="395"/>
+        <UsageCount Value="10"/>
+      </Unit21>
+      <Unit22>
+        <Filename Value="..\..\..\Moacyr\AppData\Local\lazarus\onlinepackagemanager\packages\zeosdbo\src\component\ZAbstractRODataset.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="3671"/>
+        <CursorPos Y="3685"/>
+        <UsageCount Value="10"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit22>
+      <Unit23>
+        <Filename Value="C:\lazarus\lcl\include\messagedialogs.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="192"/>
+        <CursorPos Y="208"/>
+        <UsageCount Value="10"/>
+      </Unit23>
+      <Unit24>
+        <Filename Value="C:\lazarus\components\lazutils\lazstringutils.pas"/>
+        <UnitName Value="LazStringUtils"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="204"/>
+        <CursorPos Y="219"/>
+        <UsageCount Value="10"/>
+      </Unit24>
+      <Unit25>
+        <Filename Value="..\..\AppData\Local\lazarus\onlinepackagemanager\packages\zeosdbo\src\plain\ZPlainLoader.pas"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="242"/>
+        <CursorPos Y="252"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit25>
+    </Units>
+    <JumpHistory Count="30" HistoryIndex="29">
+      <Position1>
+        <Filename Value="dmdados.pas"/>
+        <Caret Line="124" TopLine="104"/>
+      </Position1>
+      <Position2>
+        <Filename Value="dmdados.pas"/>
+        <Caret Line="125" TopLine="104"/>
+      </Position2>
+      <Position3>
+        <Filename Value="dmdados.pas"/>
+        <Caret Line="126" TopLine="104"/>
+      </Position3>
+      <Position4>
+        <Filename Value="dmdados.pas"/>
+        <Caret Line="124" TopLine="104"/>
+      </Position4>
+      <Position5>
+        <Filename Value="dmdados.pas"/>
+        <Caret Line="125" TopLine="104"/>
+      </Position5>
+      <Position6>
+        <Filename Value="dmdados.pas"/>
+        <Caret Line="126" TopLine="104"/>
+      </Position6>
+      <Position7>
+        <Filename Value="dmdados.pas"/>
+        <Caret Line="124" TopLine="104"/>
+      </Position7>
+      <Position8>
+        <Filename Value="dmdados.pas"/>
+        <Caret Line="125" TopLine="104"/>
+      </Position8>
+      <Position9>
+        <Filename Value="dmdados.pas"/>
+        <Caret Line="126" TopLine="104"/>
+      </Position9>
+      <Position10>
+        <Filename Value="dmdados.pas"/>
+        <Caret Line="124" TopLine="104"/>
+      </Position10>
+      <Position11>
+        <Filename Value="dmdados.pas"/>
+        <Caret Line="125" TopLine="104"/>
+      </Position11>
+      <Position12>
+        <Filename Value="dmdados.pas"/>
+        <Caret Line="126" TopLine="104"/>
+      </Position12>
+      <Position13>
+        <Filename Value="dmdados.pas"/>
+        <Caret Line="124" TopLine="104"/>
+      </Position13>
+      <Position14>
+        <Filename Value="dmdados.pas"/>
+        <Caret Line="125" TopLine="104"/>
+      </Position14>
+      <Position15>
+        <Filename Value="dmdados.pas"/>
+        <Caret Line="126" TopLine="104"/>
+      </Position15>
+      <Position16>
+        <Filename Value="dmdados.pas"/>
+        <Caret Line="124" TopLine="104"/>
+      </Position16>
+      <Position17>
+        <Filename Value="dmdados.pas"/>
+        <Caret Line="125" TopLine="104"/>
+      </Position17>
+      <Position18>
+        <Filename Value="dmdados.pas"/>
+        <Caret Line="126" TopLine="104"/>
+      </Position18>
+      <Position19>
+        <Filename Value="dmdados.pas"/>
+        <Caret Line="128" TopLine="104"/>
+      </Position19>
+      <Position20>
+        <Filename Value="dmdados.pas"/>
+        <Caret Line="129" TopLine="104"/>
+      </Position20>
+      <Position21>
+        <Filename Value="dmdados.pas"/>
+        <Caret Line="90" TopLine="71"/>
+      </Position21>
+      <Position22>
+        <Filename Value="dmdados.pas"/>
+        <Caret Line="91" TopLine="71"/>
+      </Position22>
+      <Position23>
+        <Filename Value="cadlocal.pas"/>
+        <Caret Line="133" TopLine="126"/>
+      </Position23>
+      <Position24>
+        <Filename Value="dmdados.pas"/>
+        <Caret Line="73" TopLine="67"/>
+      </Position24>
+      <Position25>
+        <Filename Value="dmdados.pas"/>
+        <Caret Line="90" TopLine="67"/>
+      </Position25>
+      <Position26>
+        <Filename Value="cadlocal.pas"/>
+        <Caret Line="148" TopLine="126"/>
+      </Position26>
+      <Position27>
+        <Filename Value="cadlocal.pas"/>
+        <Caret Line="168" Column="10" TopLine="143"/>
+      </Position27>
+      <Position28>
+        <Filename Value="dmdados.pas"/>
+        <Caret Line="84" Column="45" TopLine="68"/>
+      </Position28>
+      <Position29>
+        <Filename Value="dmdados.pas"/>
+        <Caret Line="119" Column="34" TopLine="104"/>
+      </Position29>
+      <Position30>
+        <Filename Value="cadlocal.pas"/>
+        <Caret Line="111" Column="14" TopLine="97"/>
+      </Position30>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes Count="0" ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+  <Debugging>
+    <BreakPoints Count="2">
+      <Item1>
+        <Kind Value="bpkSource"/>
+        <WatchScope Value="wpsLocal"/>
+        <WatchKind Value="wpkWrite"/>
+        <Source Value="ucadparam.pas"/>
+        <Line Value="248"/>
+      </Item1>
+      <Item2>
+        <Kind Value="bpkSource"/>
+        <WatchScope Value="wpsLocal"/>
+        <WatchKind Value="wpkWrite"/>
+        <Source Value="ucadparam.pas"/>
+        <Line Value="181"/>
+      </Item2>
+    </BreakPoints>
+  </Debugging>
+</CONFIG>

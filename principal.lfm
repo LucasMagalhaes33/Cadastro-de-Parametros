@@ -1,0 +1,98 @@
+object frmPrincipal: TfrmPrincipal
+  Left = 473
+  Height = 604
+  Top = 194
+  Width = 627
+  Caption = 'frmPrincipal'
+  ClientHeight = 584
+  ClientWidth = 627
+  Menu = MainMenu1
+  LCLVersion = '2.0.12.0'
+  WindowState = wsMaximized
+  object TDINoteBook1: TTDINoteBook
+    Left = 0
+    Height = 584
+    Top = 0
+    Width = 627
+    ActivePage = TabSheet1
+    Align = alClient
+    TabIndex = 0
+    TabOrder = 0
+    OnChange = TDINoteBook1Change
+    MainMenu = MainMenu1
+    TDIActions.TabsMenu.Caption = 'Tabs'
+    TDIActions.TabsMenu.ImageIndex = -1
+    TDIActions.TabsMenu.Visible = True
+    TDIActions.CloseTab.Caption = 'Close Tab'
+    TDIActions.CloseTab.ImageIndex = -1
+    TDIActions.CloseTab.Visible = True
+    TDIActions.CloseAllTabs.Caption = 'Close All Tabs'
+    TDIActions.CloseAllTabs.ImageIndex = -1
+    TDIActions.CloseAllTabs.Visible = True
+    TDIActions.NextTab.Caption = 'Next Tab'
+    TDIActions.NextTab.ImageIndex = -1
+    TDIActions.NextTab.Visible = False
+    TDIActions.PreviousTab.Caption = 'Previous Tab'
+    TDIActions.PreviousTab.ImageIndex = -1
+    TDIActions.PreviousTab.Visible = False
+    object TabSheet1: TTabSheet
+      Caption = 'TabSheet1'
+      ClientHeight = 556
+      ClientWidth = 619
+      object BCPanel1: TBCPanel
+        Left = 0
+        Height = 556
+        Top = 0
+        Width = 619
+        Align = alClient
+        Background.Color = clBtnFace
+        Background.Gradient1.StartColor = 14087422
+        Background.Gradient1.EndColor = 436985
+        Background.Gradient1.GradientType = gtLinear
+        Background.Gradient1.Point1XPercent = 0
+        Background.Gradient1.Point1YPercent = 0
+        Background.Gradient1.Point2XPercent = 0
+        Background.Gradient1.Point2YPercent = 100
+        Background.Gradient2.StartColor = clWhite
+        Background.Gradient2.EndColor = clBlack
+        Background.Gradient2.GradientType = gtLinear
+        Background.Gradient2.Point1XPercent = 0
+        Background.Gradient2.Point1YPercent = 0
+        Background.Gradient2.Point2XPercent = 0
+        Background.Gradient2.Point2YPercent = 100
+        Background.Gradient1EndPercent = 100
+        Background.Style = bbsGradient
+        BevelInner = bvNone
+        BevelOuter = bvRaised
+        BevelWidth = 1
+        Border.Style = bboNone
+        FontEx.Color = clDefault
+        FontEx.FontQuality = fqSystemClearType
+        FontEx.Shadow = False
+        FontEx.ShadowRadius = 5
+        FontEx.ShadowOffsetX = 5
+        FontEx.ShadowOffsetY = 5
+        FontEx.Style = []
+        ParentBackground = False
+        Rounding.RoundX = 1
+        Rounding.RoundY = 1
+        TabOrder = 0
+      end
+    end
+  end
+  object MainMenu1: TMainMenu
+    Left = 70
+    Top = 29
+    object MenuItem1: TMenuItem
+      Caption = 'Cadastros'
+      object MenuItem2: TMenuItem
+        Caption = 'Locais'
+        OnClick = MenuItem2Click
+      end
+      object Lucas: TMenuItem
+        Caption = 'Lucas'
+        OnClick = LucasClick
+      end
+    end
+  end
+end

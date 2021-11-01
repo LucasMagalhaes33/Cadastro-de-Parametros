@@ -1,0 +1,144 @@
+object frmCadLocal: TfrmCadLocal
+  Left = 467
+  Height = 495
+  Top = 143
+  Width = 350
+  Caption = 'Locais'
+  ClientHeight = 495
+  ClientWidth = 350
+  OnClose = FormClose
+  OnShow = FormShow
+  Position = poMainFormCenter
+  LCLVersion = '2.0.12.0'
+  Visible = True
+  object BCPanel1: TBCPanel
+    Left = 0
+    Height = 59
+    Top = 0
+    Width = 349
+    Background.Color = clBtnFace
+    Background.Gradient1.StartColor = 14087422
+    Background.Gradient1.EndColor = 436985
+    Background.Gradient1.GradientType = gtLinear
+    Background.Gradient1.Point1XPercent = 0
+    Background.Gradient1.Point1YPercent = 0
+    Background.Gradient1.Point2XPercent = 0
+    Background.Gradient1.Point2YPercent = 100
+    Background.Gradient2.StartColor = clWhite
+    Background.Gradient2.EndColor = clBlack
+    Background.Gradient2.GradientType = gtLinear
+    Background.Gradient2.Point1XPercent = 0
+    Background.Gradient2.Point1YPercent = 0
+    Background.Gradient2.Point2XPercent = 0
+    Background.Gradient2.Point2YPercent = 100
+    Background.Gradient1EndPercent = 100
+    Background.Style = bbsGradient
+    BevelInner = bvNone
+    BevelOuter = bvRaised
+    BevelWidth = 1
+    Border.Style = bboNone
+    FontEx.Color = clDefault
+    FontEx.FontQuality = fqSystemClearType
+    FontEx.Shadow = False
+    FontEx.ShadowRadius = 5
+    FontEx.ShadowOffsetX = 5
+    FontEx.ShadowOffsetY = 5
+    FontEx.Style = []
+    ParentBackground = False
+    Rounding.RoundX = 1
+    Rounding.RoundY = 1
+    TabOrder = 0
+    OnExit = BCPanel1Exit
+    object sbtIncluir: TSpeedButton
+      Left = 3
+      Height = 48
+      Top = 8
+      Width = 64
+      Caption = 'Incluir'
+      Flat = True
+      Font.CharSet = ANSI_CHARSET
+      Font.Name = 'Arial Narrow'
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      Font.Style = [fsBold, fsItalic]
+      Glyph.Data = {
+        EE000000424DEE000000000000007600000028000000100000000F0000000100
+        04000000000078000000130B0000130B00000000000000000000000000000000
+        8000008000000080800080000000800080008080000080808000C0C0C0000000
+        FF0000FF000000FFFF00FF000000FF00FF00FFFF0000FFFFFF00888888800000
+        000088888880FFFFFFF088888880F00F00F088888880FFFFFFF088888880F00F
+        00F088888880FFFFFFF088888884444444448800008444444444880BB0888888
+        8888000BB000888888880BBBBBB0888888880BBBBBB088888888000BB0008888
+        8888880BB088888888888800008888888888
+      }
+      Layout = blGlyphTop
+      OnClick = sbtIncluirClick
+      ParentFont = False
+    end
+    object sbtExcluir: TSpeedButton
+      Left = 192
+      Height = 48
+      Top = 8
+      Width = 64
+      Caption = 'Excluir'
+      Flat = True
+      Font.CharSet = ANSI_CHARSET
+      Font.Name = 'Arial Narrow'
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      Font.Style = [fsBold, fsItalic]
+      Glyph.Data = {
+        76010000424D7801000000000000760000002800000020000000100000000100
+        04000000000000000000120B0000120B00000000000000000000000000000000
+        800000800000008080008000000080008000808000007F7F7F00BFBFBF000000
+        FF0000FF000000FFFF00FF000000FF00FF00FFFF0000FFFFFF00333000000000
+        3333333777777777F3333330F777777033333337F3F3F3F7F3333330F0808070
+        33333337F7F7F7F7F3333330F080707033333337F7F7F7F7F3333330F0808070
+        33333337F7F7F7F7F3333330F080707033333337F7F7F7F7F3333330F0808070
+        333333F7F7F7F7F7F3F33030F080707030333737F7F7F7F7F7333300F0808070
+        03333377F7F7F7F773333330F080707033333337F7F7F7F7F333333070707070
+        33333337F7F7F7F7FF3333000000000003333377777777777F33330F88877777
+        0333337FFFFFFFFF7F3333000000000003333377777777777333333330777033
+        3333333337FFF7F3333333333000003333333333377777333333
+      }
+      Layout = blGlyphTop
+      OnClick = sbtExcluirClick
+      ParentFont = False
+    end
+  end
+  object DBGrid1: TDBGrid
+    Left = 0
+    Height = 438
+    Top = 56
+    Width = 348
+    Color = 14087422
+    Columns = <    
+      item
+        Font.CharSet = ANSI_CHARSET
+        Font.Color = clBlack
+        Font.Height = -12
+        Font.Name = 'Arial'
+        Font.Pitch = fpVariable
+        Font.Quality = fqDraft
+        Font.Style = [fsBold, fsItalic]
+        Title.Alignment = taCenter
+        Title.Font.CharSet = ANSI_CHARSET
+        Title.Font.Color = clBlack
+        Title.Font.Height = -13
+        Title.Font.Name = 'Arial Narrow'
+        Title.Font.Pitch = fpVariable
+        Title.Font.Quality = fqDraft
+        Title.Font.Style = [fsBold, fsItalic]
+        Title.Caption = 'DESCRIÇÃO'
+        Width = 327
+        FieldName = 'descricao'
+      end>
+    DataSource = DM.dtsLocal
+    FixedColor = 9096183
+    FixedCols = 0
+    Options = [dgEditing, dgTitles, dgColumnResize, dgColumnMove, dgColLines, dgRowLines, dgTabs, dgAlwaysShowSelection, dgConfirmDelete, dgCancelOnExit]
+    TabOrder = 1
+    TitleFont.Color = 9096183
+    OnKeyDown = DBGrid1KeyDown
+  end
+end
